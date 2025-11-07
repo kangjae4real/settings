@@ -1,0 +1,70 @@
+{
+    "explorer.confirmDelete": false,
+    "window.commandCenter": true,
+    "extensions.ignoreRecommendations": true,
+    "terminal.integrated.enablePersistentSessions": false,
+    "terminal.integrated.persistentSessionReviveProcess": "never",
+    "git.openRepositoryInParentFolders": "never",
+
+    // Theme & Editor
+    "workbench.colorTheme": "Visual Studio Dark",
+    "editor.fontSize": 13,
+    "editor.fontFamily": "'JetBrains Mono', monospace",
+    "editor.formatOnSave": true,
+    "editor.fontLigatures": false,
+
+    // Front-end code settings
+    "[typescript]": {
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.tabSize": 4,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.tabSize": 4,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.tabSize": 4,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[python]": {
+        "editor.tabSize": 4,
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.defaultColorDecorators": "never"
+    },
+    "tailwindCSS.classFunctions": ["cva", "cx"],
+
+    // C/C++
+    "cmake.enableAutomaticKitScan": false,
+    "cmake.configureSettings": {
+        "CMAKE_C_COMPILER": "/opt/homebrew/opt/llvm/bin/clang",
+        "CMAKE_CXX_COMPILER": "/opt/homebrew/opt/llvm/bin/clang++"
+    },
+    "clangd.path": "/opt/homebrew/opt/llvm/bin/clangd",
+    "[cpp]": {
+        "editor.insertSpaces": true
+    },
+    "[c]": {
+        "editor.insertSpaces": true
+    },
+
+    // Remote servers (Tanker)
+    "remote.SSH.remotePlatform": {
+        "vultur": "linux"
+    }
+}
