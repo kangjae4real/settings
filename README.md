@@ -1,4 +1,4 @@
-# My Configs
+# My settings
 ## Jetbrains
 ### Font
 `Editor` > `Font`: **Jetbrains Mono**
