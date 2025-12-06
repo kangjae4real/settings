@@ -1,0 +1,57 @@
+{
+    // VSCode Settings
+    "explorer.confirmDelete": false,
+    "window.commandCenter": true,
+    "extensions.ignoreRecommendations": true,
+    "terminal.integrated.enablePersistentSessions": false,
+    "terminal.integrated.persistentSessionReviveProcess": "never",
+    "git.openRepositoryInParentFolders": "never",
+
+    // VSCode AI Settings
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+    "github.copilot.nextEditSuggestions.enabled": true,
+
+    // Theme & Editor Settings
+    "workbench.colorTheme": "Visual Studio Dark",
+    "editor.fontFamily": "'JetBrains Mono', monospace",
+    "editor.fontSize": 13,
+    "editor.formatOnSave": true,
+    "editor.fontLigatures": false,
+
+    // Language Specific Settings
+    "[typescript]": {
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.tabSize": 4,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.tabSize": 4,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.tabSize": 4,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[python]": {
+        "editor.tabSize": 4,
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.defaultColorDecorators": "never"
+    },
+    "tailwindCSS.classFunctions": ["cva", "cx"]
+}
