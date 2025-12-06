@@ -16,4 +16,8 @@
 `Material UI`: Material Oceanic (Contrast - no compact)
 
 ## Cursor
-[settings.json](https://github.com/kangjae4real/settings/blob/master/settings.json)
+[settings.json](https://github.com/kangjae4real/settings/blob/master/cursor/settings.json)
+
+## Visual Studio Code
+[settings.json](https://github.com/kangjae4real/settings/blob/master/vscode/settings.json)
+
