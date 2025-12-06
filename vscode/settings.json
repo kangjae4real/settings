@@ -8,9 +8,8 @@
     "git.openRepositoryInParentFolders": "never",
 
     // VSCode AI Settings
-    "gitlens.ai.model": "vscode",
-    "gitlens.ai.vscode.model": "copilot:gpt-4.1",
     "github.copilot.nextEditSuggestions.enabled": true,
+    "chat.extensionUnification.enabled": true,
 
     // Theme & Editor Settings
     "workbench.colorTheme": "Visual Studio Dark",
