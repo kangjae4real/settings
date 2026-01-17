@@ -1,4 +1,5 @@
 {
+  // Cursor settings
   "explorer.confirmDelete": false,
   "window.commandCenter": true,
   "extensions.ignoreRecommendations": true,
@@ -6,18 +7,23 @@
   "terminal.integrated.persistentSessionReviveProcess": "never",
   "json.schemaDownload.enable": true,
 
-  // Git
+  // Git Settings
   "git.openRepositoryInParentFolders": "never",
   "git.blame.editorDecoration.enabled": true,
+  "git.blame.statusBarItem.enabled": true,
 
-  // Theme & Editor
+  // Theme & Editor Settings
+  "workbench.startupEditor": "none",
   "workbench.colorTheme": "Visual Studio Dark",
   "editor.fontSize": 13,
   "editor.fontFamily": "'JetBrains Mono', monospace",
-  "editor.formatOnSave": true,
   "editor.fontLigatures": false,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always"
+  },
 
-  // Front-end code settings
+  // Language Settings
   "[typescript]": {
     "editor.tabSize": 2,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -38,6 +44,10 @@
     "editor.tabSize": 4,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[jsonc]": {
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[html]": {
     "editor.tabSize": 4,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -51,13 +61,15 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.defaultColorDecorators": "never"
   },
-  "tailwindCSS.classFunctions": ["cva", "cx"],
-
-  // C/C++ code settings
   "[c]": {
     "editor.insertSpaces": true
   },
   "[cpp]": {
     "editor.insertSpaces": true
-  }
+  },
+  "[markdown]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true
+  },
+  "tailwindCSS.classFunctions": ["cva", "cx"]
 }
