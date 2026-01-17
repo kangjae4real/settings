@@ -1,56 +1,89 @@
 {
-    // VSCode Settings
-    "explorer.confirmDelete": false,
-    "window.commandCenter": true,
-    "extensions.ignoreRecommendations": true,
-    "terminal.integrated.enablePersistentSessions": false,
-    "terminal.integrated.persistentSessionReviveProcess": "never",
-    "git.openRepositoryInParentFolders": "never",
+  // VSCode Settings
+  "explorer.confirmDelete": false,
+  "window.commandCenter": true,
+  "extensions.ignoreRecommendations": true,
+  "terminal.integrated.enablePersistentSessions": false,
+  "terminal.integrated.persistentSessionReviveProcess": "never",
+  "git.openRepositoryInParentFolders": "never",
 
-    // VSCode AI Settings
-    "github.copilot.nextEditSuggestions.enabled": true,
-    "chat.extensionUnification.enabled": true,
+  // Copilot Settings
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "chat.extensionUnification.enabled": true,
 
-    // Theme & Editor Settings
-    "workbench.colorTheme": "Visual Studio Dark",
-    "editor.fontFamily": "'JetBrains Mono', monospace",
-    "editor.fontSize": 13,
+  // Theme & Editor Settings
+  "workbench.startupEditor": "none",
+  "workbench.colorTheme": "Visual Studio Dark",
+  "editor.fontSize": 13,
+  "editor.fontFamily": "'JetBrains Mono', monospace",
+  "editor.fontLigatures": false,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always"
+  },
+
+  // Language Settings
+  "[typescript]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.tabSize": 4,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.defaultColorDecorators": "never"
+  },
+  "[c]": {
+    "editor.insertSpaces": true
+  },
+  "[cpp]": {
+    "editor.insertSpaces": true
+  },
+  "[markdown]": {
     "editor.formatOnSave": true,
-    "editor.fontLigatures": false,
+    "editor.formatOnPaste": true
+  },
+  "tailwindCSS.classFunctions": ["cva", "cx"],
 
-    // Language Specific Settings
-    "[typescript]": {
-        "editor.tabSize": 2,
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[javascript]": {
-        "editor.tabSize": 2,
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[typescriptreact]": {
-        "editor.tabSize": 2,
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[javascriptreact]": {
-        "editor.tabSize": 2,
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[json]": {
-        "editor.tabSize": 4,
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[html]": {
-        "editor.tabSize": 4,
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[css]": {
-        "editor.tabSize": 4,
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[python]": {
-        "editor.tabSize": 4,
-        "diffEditor.ignoreTrimWhitespace": false,
-        "editor.defaultColorDecorators": "never"
-    },
-    "tailwindCSS.classFunctions": ["cva", "cx"]
+  // ETC
+  "files.associations": {
+    ".env*": "dotenv"
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "keyword.other.dotenv",
+        "settings": {
+          "foreground": "#FF000000"
+        }
+      }
+    ]
+  }
 }
