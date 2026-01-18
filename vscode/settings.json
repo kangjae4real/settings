@@ -12,6 +12,7 @@
   "chat.extensionUnification.enabled": true,
 
   // Theme & Editor Settings
+  "workbench.editor.empty.hint": "hidden",
   "workbench.startupEditor": "none",
   "workbench.colorTheme": "Visual Studio Dark",
   "editor.fontSize": 13,
