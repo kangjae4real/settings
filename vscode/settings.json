@@ -3,8 +3,6 @@
   "explorer.confirmDelete": false,
   "window.commandCenter": true,
   "extensions.ignoreRecommendations": true,
-  "terminal.integrated.enablePersistentSessions": false,
-  "terminal.integrated.persistentSessionReviveProcess": "never",
   "json.schemaDownload.enable": true,
 
   // Git Settings
@@ -21,13 +19,20 @@
   "workbench.startupEditor": "none",
   "workbench.colorTheme": "Visual Studio Dark",
   "editor.fontSize": 13,
-  "editor.fontFamily": "'JetBrains Mono', monospace",
+  "editor.fontFamily": "'JetBrainsMono Nerd Font', 'JetBrains Mono', monospace",
   "editor.fontLigatures": false,
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
   },
   "editor.inlineSuggest.enabled": false,
+
+  // Terminal
+  "terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font Mono', 'MesloLGS NF', monospace",
+  "terminal.integrated.fontSize": 11,
+  "terminal.integrated.lineHeight": 1.2,
+  "terminal.integrated.enablePersistentSessions": false,
+  "terminal.integrated.persistentSessionReviveProcess": "never",
 
   // Language Settings
   "[typescript]": {
