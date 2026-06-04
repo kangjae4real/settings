@@ -18,6 +18,7 @@
   "workbench.editor.empty.hint": "hidden",
   "workbench.startupEditor": "none",
   "workbench.colorTheme": "Visual Studio Dark",
+  "editor.tabSize": 2,
   "editor.fontSize": 13,
   "editor.fontFamily": "'JetBrainsMono Nerd Font', 'JetBrains Mono', monospace",
   "editor.fontLigatures": false,
@@ -39,12 +40,11 @@
     "editor.tabSize": 2,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "typescript.preferences.importModuleSpecifier": "non-relative",
   "[javascript]": {
     "editor.tabSize": 2,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "javascript.preferences.importModuleSpecifier": "non-relative",
+  "js/ts.preferences.importModuleSpecifier": "non-relative",
   "[typescriptreact]": {
     "editor.tabSize": 2,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -106,5 +106,7 @@
         }
       }
     ]
-  }
+  },
+  "claudeCode.preferredLocation": "panel",
+  "security.workspace.trust.untrustedFiles": "open"
 }
