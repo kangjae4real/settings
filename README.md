@@ -1,23 +1,35 @@
-# My settings
-## Jetbrains
+# settings
+
+My personal editor and IDE settings, kept in one place so I can set up a new
+machine quickly.
+
+## Contents
+
+| Editor | Config |
+| --- | --- |
+| Cursor | [`cursor/settings.json`](cursor/settings.json) |
+| Visual Studio Code | [`vscode/settings.json`](vscode/settings.json) |
+| JetBrains | see [below](#jetbrains) |
+
+## JetBrains
+
+JetBrains settings live in the IDE, not in a file, so here they are for the record.
+
 ### Font
-`Editor` > `Font`: **Jetbrains Mono**
- - Size: 13
- - Line Height: 1.2
 
-`Editor` > `Color Scheme` > `Color Scheme Font`: **Jetbrains Mono**
-  - Size: 13
-  - Line Height: 1.2
+| Where | Font | Size | Line height |
+| --- | --- | --- | --- |
+| `Editor` › `Font` | JetBrains Mono | 13 | 1.2 |
+| `Editor` › `Color Scheme` › `Color Scheme Font` | JetBrains Mono | 13 | 1.2 |
+| `Editor` › `Color Scheme` › `Console Font (Terminal)` | MesloLGS NF | 12 | 1.2 |
 
-`Editor` > `Color Scheme` > `Console Font(Terminal)`: **MesloLGS NF**
- - Size: 12
- - Line Height: 1.2
 ### Theme
-`Material UI`: Material Oceanic (Contrast - no compact)
 
-## Cursor
-[settings.json](https://github.com/kangjae4real/settings/blob/master/cursor/settings.json)
+Material UI, **Material Oceanic** (Contrast, no compact).
 
-## Visual Studio Code
-[settings.json](https://github.com/kangjae4real/settings/blob/master/vscode/settings.json)
+## Usage
 
+Copy the relevant `settings.json` into your editor's config location:
+
+- Cursor: `~/Library/Application Support/Cursor/User/settings.json`
+- VS Code: `~/Library/Application Support/Code/User/settings.json`
