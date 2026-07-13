@@ -4,6 +4,7 @@
   "window.commandCenter": true,
   "extensions.ignoreRecommendations": true,
   "json.schemaDownload.enable": true,
+  "explorer.autoReveal": false,
 
   // Git Settings
   "git.blame.editorDecoration.enabled": true,
