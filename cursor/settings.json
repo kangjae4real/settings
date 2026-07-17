@@ -14,7 +14,7 @@
   // Theme & Editor Settings
   "workbench.editor.empty.hint": "hidden",
   "workbench.startupEditor": "none",
-  "workbench.colorTheme": "Visual Studio Dark",
+  "workbench.colorTheme": "Default Dark+",
   "window.autoDetectColorScheme": false,
   "editor.tabSize": 2,
   "editor.fontSize": 13,
